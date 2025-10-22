@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-g -I../grepline -Wall -Wextra -pedantic -std=gnu89
+CFLAGS=-ggdb -I../grepline -Wall -Wextra -pedantic -std=gnu99
 #if you don't like or don't want gcc, feel free to change CC
 
 all: idp
